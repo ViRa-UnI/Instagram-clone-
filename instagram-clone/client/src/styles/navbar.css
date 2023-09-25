@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar .logo {
+    font-size: 1.7em;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar .search {
+    flex-grow: 1;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar .search input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    font-size: 1em;
+}
+
+.navbar .icons {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.navbar .icon {
+    font-size: 1.5em;
+    color: #000;
+    text-decoration: none;
+}
